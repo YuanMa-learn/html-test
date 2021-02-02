@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test 2</title>
+</head>
+<body>
+html页面中链接的设置：
+<br>
+<h2>1、普通文本链接</h2>
+<a href="https://github.com/YuanMa-learn/html-test" target="_parent"> 这是一个链接</a>
+属性href 规定链接目标
+<ul>属性target 定义被链接的文档在哪里显示，可取值：</ul>
+<ol>_blank 新的页面</ol>
+<ol>_parent </ol>
+<ol>_self </ol>
+<ol>_top </ol>
+<h2>2、图像链接</h2>
+<a href="https://github.com/YuanMa-learn/html-test">
+    <img src="resource/duola.jpg"></a>
+<br>
+图像链接与文本链接的区别是，文本区域换成了使用img标签的图片显示
+<h2>3、使用name属性创建html页面中的书签</h2>
+<ol>
+    <li>使用name属性在文档中创建锚
+    <br>
+    <pre><a name="tips">创建一个锚</a></pre>
+    </li>
+    <li>创建指向该锚的链接
+    <pre><a href="#tips">指向锚</a></pre>
+    </li>
+</ol>
+示例：
+<p>
+    <a href="#ch4">chapter 5 指向一个页面内的书签</a>
+</p>
+<h3><a name="ch1">Chapter 1</a></h3>
+<p>this is chapter 1</p>
+<h3><a name="ch2">Chapter 2</a></h3>
+<p>this is chapter 2</p>
+<h3><a name="ch3">Chapter 3</a></h3>
+<p>this is chapter 3</p>
+<h3><a name="ch4">Chapter 4</a></h3>
+<p>this is chapter 4</p>
+<h3><a name="ch5">Chapter 5</a></h3>
+<p>this is chapter 5</p>
+<h3><a name="ch6">Chapter 6</a></h3>
+<p>this is chapter 6</p>
+</body>
+</html>
